@@ -11,3 +11,7 @@ todoList.forEach(function(element) {
         completedTodos.push(element)
     }
 })
+
+for (const {todo, status} of completedTodos) {
+    console.log(todo);
+}
